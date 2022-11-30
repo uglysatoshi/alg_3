@@ -13,6 +13,7 @@ int main()
         q.pop();
     cout << "Вывод очереди после 5 итераций pop(): " << endl;
     q.show();
+    cout << endl;
 
     for (int i = 0; i < 20; i++)
         s.push(rand()%100);
@@ -25,6 +26,7 @@ int main()
         s.pop();
     cout << "Вывод реверсированного стека после 5 итераций pop(): " << endl;
     s.show();
+    cout << endl;
 
     for (int i = 0; i < 10; i++)
         d.push_back(rand()%100);
